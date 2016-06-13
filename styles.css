@@ -1,0 +1,109 @@
+h1,h2,h3,h4,h5,h6,body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 920px;
+    margin: auto;
+    padding-top:80px;
+}
+
+.container-fluid {
+    width: 100%;
+}
+#cabecera {
+    min-height: 800px;
+    background-color: black;
+    background-size: cover;
+
+}
+
+
+/*MENU INICIO*/
+#menu {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    position: static;
+    border-top: 5px double white;
+    border-bottom: 5px double white;
+ 
+}
+
+#menu ul {
+    padding: 0;
+}
+
+#menu li{
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu>ul>li {
+    display: inline-block;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu>ul>li>a {
+    padding: 10px;
+    transition: 1s;
+}
+
+#menu>ul>li>a:hover {
+    background-color: grey;
+}
+
+#notas-secundarias{
+    min-height: 300px;
+    width: 950px;
+    display: inline-block;
+}
+
+#notas-secundarias article{
+    display:flex;
+    margin-bottom: 40px;
+    padding-bottom: 40px;   
+    
+}
+
+
+.imagen-nota-secundaria{
+    position: relative;
+    
+}
+
+
+.intro-nota-secundaria {
+    text-align: justify;
+    margin: 15px 20px;
+    color: white
+}
+
+
+.cuerpo-nota-secundaria {
+    padding-left: 0px;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+
+#encabezado{
+    width: 250px;
+    height: 150px;
+    
+}
+
+#creditos p{
+    color:white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
